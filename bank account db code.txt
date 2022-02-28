@@ -1,0 +1,26 @@
+create table account
+     (name varchar(20),
+       acno varchar(10),
+       dob varchar(10),
+       phone varchar(50),
+       address varchar(10),
+       ob int);
+create table amount
+     (name varchar(20),
+       acno varchar(10),
+       balance int);
+
+insert into account values(
+'Satish Gupta',23431,'01/01/1999',6654547890,'Solapur',16000);
+
+insert into account values(
+'Rohit Mehra',24341,'08/04/1998',789743890,'Shastrinagar',10000)
+,('Stephney',25366,'06/11/2000',889743890,'willstone',18000)
+,('Neha Roy',28332,'28/09/2001',919743890,'Diamond plot',14000)
+;
+
+insert into amount values('Satish Gupta',23431,20000),
+('Rohit Mehra',24341,25000),
+('Stephney',25366,30000),
+('Neha Roy',28332,12000);
+
